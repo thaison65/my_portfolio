@@ -1,11 +1,12 @@
 
-import './App.css'
+import './App.scss'
+import DefaultLayout from './components/layouts/DefaultLayout/DefaultLayout'
 
 function App() {
 
   return (
     <>
-     Hello
+      <DefaultLayout/>     
     </>
   )
 }
