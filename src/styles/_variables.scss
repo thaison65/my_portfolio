@@ -1,0 +1,104 @@
+@mixin code-m {
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-small);
+  line-height: var(--line-height-medium);
+}
+
+@mixin para-m {
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-medium);
+  line-height: var(--line-height-large);
+}
+
+@mixin media-m {
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-medium);
+  line-height: var(--line-height-large);
+}
+
+@mixin menu-m {
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-xl);
+  line-height: var(--line-height-2xl);
+}
+
+@mixin logo-m {
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-size-2xl);
+  line-height: var(--line-height-4xl);
+}
+
+@mixin h2-m {
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-size-2xl);
+  line-height: var(--line-height-4xl);
+}
+
+@mixin number-m {
+  font-family: var(--font-mono);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-size-3xl);
+  line-height: var(--line-height-5xl);
+}
+
+@mixin lable-u-l {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-light);
+  font-size: var(--text-size-small);
+  line-height: var(--line-height-small);
+}
+
+@mixin lable-u-m {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-light);
+  font-size: var(--text-size-medium);
+  line-height: var(--line-height-medium);
+}
+
+@mixin para-u {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-light);
+  font-size: var(--text-size-medium);
+  line-height: var(--line-height-medium);
+}
+
+@mixin article-u {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-light);
+  font-size: var(--text-size-medium);
+  line-height: var(--line-height-2xl);
+}
+
+@mixin button-u {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-large);
+  line-height: var(--line-height-xl);
+}
+
+@mixin h2-u {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-2xl);
+  line-height: var(--line-height-3xl);
+}
+
+@mixin h1-u {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-4xl);
+  line-height: var(--line-height-6xl);
+}
+
+@mixin bg-text-u {
+  font-family: var(--font-ubuntu);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-size-bg-text);
+  line-height: var(--line-height-bg-text);
+}

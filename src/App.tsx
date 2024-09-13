@@ -1,14 +1,13 @@
-
-import './App.scss'
-import DefaultLayout from './components/layouts/DefaultLayout/DefaultLayout'
+import Router from './components/contexts/Router';
+import { paths } from './constant';
+import './styles/_index.scss';
 
 function App() {
-
   return (
     <>
-      <DefaultLayout/>     
+      <Router defaultRoute={paths.home} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

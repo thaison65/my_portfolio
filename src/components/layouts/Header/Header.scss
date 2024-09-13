@@ -1,0 +1,63 @@
+@import '../../../styles/_variables.scss';
+
+#header {
+  margin: 0 128px;
+  padding: 64px 0;
+  border-bottom: 1px solid var(--color-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > .container-logo {
+    display: flex;
+    gap: 2px;
+    & > .logo {
+      @include logo-m;
+
+      &.text-primary {
+        color: var(--color-primary);
+      }
+      &.text-white {
+        color: var(--color-white);
+      }
+    }
+  }
+
+  & #header-action {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+
+    & > .nav-menu {
+      display: flex;
+      gap: 32px;
+      color: var(--color-white);
+      @include menu-m;
+
+      & > .active {
+        color: var(--color-primary);
+      }
+    }
+
+    & > .container-search {
+      display: flex;
+      align-items: center;
+      background-color: var(--color-white);
+      padding: 6px 16px;
+      border-radius: 24px;
+
+      #txt-search {
+        border: none;
+        outline: none;
+      }
+    }
+
+    & > .icon-item {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      color: var(--color-white);
+      @include media-m;
+    }
+  }
+}
